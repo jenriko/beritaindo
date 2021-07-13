@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/Curved"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/bg_home"
+        android:orientation="horizontal"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Curved"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/blue_500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/indoneisan_mobile_news"/>
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/blue_500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dosen_pembimbing"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iwan_fitrianto_rahmad_m_kom"/>
+
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/blue_500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jenriko_sahat_sinaga"/>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/muhammad_zulfi_habib"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ronny_febry_lumban_toruan"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dwi_amaliah"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/t_burhan_fadillah"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/m_taufik_hilmih"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yuberkat_zendrato"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/muhammad_syahi"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aziz_firmansyah_lingga"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/m_affifudin_huda"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dimas_toto"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alfonsus"/>
+
+
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:background="@color/blue_500"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/blue_500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Indonesian Mobile News</string>
+    <string name="hiburan">Entertainment</string>
+    <string name="kesehatan">Kesehatan</string>
+    <string name="bisnis">Bisnis</string>
+    <string name="teknologi">Teknologi</string>
+    <string name="olahraga">Olahraga</string>
+    <string name="berita_utama">Berita Utama</string>
+    <string name="time">Time</string>
+    <string name="selasa_5_januari_2021">Selasa, 5 januari 2021</string>
+    <string name="title">Title</string>
+    <string name="app_berita_by_team_a">App Info UPU Mobile News By Team A</string>
+    <string name="berita_indonesia">Berita Indonesia</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="ubah_bahasa">Ubah Bahasa</string>
+    <string name="about">About</string>
+    <string name="about_us">About Us</string>
+    <string name="indoneisan_mobile_news">Info UPU Mobile ini merupakan aplikasi yang berguna untuk menampilkan berbagai informasi seputar Universitas Potensi Utama Medan.Yang terdidri dari info Fakultas,Program Studi,Portal Akademik.Namun untuk Portal akademik ada batasan tertentu serta aplikasi ini disertai berita mulai dari kategori Teknologi,Kesehatan,Olahraga,Hiburan dan Bisnis serta Berita utama.Aplikasi ini bagian dari Tugas Kuliah mata kuliah Pemrograman Mobile. </string>
+    <string name="dosen_pembimbing">Dosen Pembimbing</string>
+    <string name="iwan_fitrianto_rahmad_m_kom">Iwan Fitrianto Rahmad M.Kom</string>
+    <string name="developer">Developer</string>
+    <string name="jenriko_sahat_sinaga">Jenriko Sahat Sinaga</string>
+    <string name="muhammad_zulfi_habib">Muhammad zulfi habib</string>
+    <string name="ronny_febry_lumban_toruan">Ronny Febry Lumban Toruan</string>
+    <string name="dwi_amaliah">Dwi Amaliah</string>
+    <string name="t_burhan_fadillah">T.Burhan Fadillah</string>
+    <string name="m_taufik_hilmih">M.Taufik Hilmih</string>
+    <string name="yuberkat_zendrato">Yuberkat zendrato</string>
+    <string name="muhammad_syahi">Muhammad syahi</string>
+    <string name="email">Cp :upu.teama@gmail.com</string>
+    <string name="aziz_firmansyah_lingga">Aziz Firmansyah Lingga</string>
+    <string name="m_affifudin_huda">M.Affifudin Huda</string>
+    <string name="dimas_toto">Dimas Toto</string>
+    <string name="alfonsus">Alfonsus</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="profile">Profile</string>
+
+
+    <string-array name="data_fakultas">
+        <item>FAKULTAS TEKNIK DAN ILMU KOMPUTER</item>
+        <item>FAKULTAS SENI DAN DESAIN</item>
+        <item>FAKULTAS PSIKOLOGI</item>
+        <item>FAKULTAS POLITIK DAN KEPENDIDIKAN</item>
+        <item>FAKULTAS HUKUM</item>
+        <item>FAKULTAS EKONOMI DAN BISNIS</item>
+
+    </string-array>
+
+
+    <array name="data_logo">
+
+        <item>@drawable/logo1</item>
+        <item>@drawable/logo2</item>
+        <item>@drawable/logo3</item>
+        <item>@drawable/logo4</item>
+        <item>@drawable/logo5</item>
+        <item>@drawable/logo6</item>
+
+
+    </array>
+
+
+    <string name="tif">Teknik Informatika</string>
+    <string name="si"> Sistem Informasi</string>
+    <string name="ti">Teknik Industri</string>
+    <string name="mi"> Manajemen Informasi (D3)</string>
+    <string name="rpl">Rekayasa Perangkat Lunak</string>
+    <string name="rsk">Rekayasa Sistem Komputer</string>
+    <string name="di">Desain Interior</string>
+    <string name="ft">Film dan Televisi</string>
+    <string name="dkv">Desain Komunikasi Visual</string>>
+    <string name="psi">Psikologi</string>
+    <string name="pbi">Pendidikan Bahasa Inggris </string>
+    <string name="hi">Hubungan Intenasional </string>
+    <string name="hk">Hukum</string>
+    <string name="ps">Perbankan Syariah </string>
+    <string name="es">Ekonomi Syariah</string>
+    <string name="mana">Manajemen</string>
+    <string name="ak">Akuntansi</string>
+
+
+</resources>

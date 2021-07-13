@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.teamb.seputarindonesia">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/l"
+        android:label="Info UPU"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
+        <activity
+            android:name=".UPUActivity"
+            android:label="UPU"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/Theme.SeputarIndonesia" />
+        <activity
+            android:name=".PortalActivity"
+            android:label="Portal Akademik"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/Theme.SeputarIndonesia" />
+        <activity
+            android:name=".ProdiActivity"
+            android:label="Program Studi"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/Theme.SeputarIndonesia" />
+        <activity
+            android:name=".TambahanActivity"
+            android:label="Menu Tambahan"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/Theme.SeputarIndonesia" />
+        <activity
+            android:name=".FakultasActivity"
+            android:label="Fakultas"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/Theme.SeputarIndonesia" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About Us"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/Theme.SeputarIndonesia" />
+
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BeritaKesehatanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BeritaBisnisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BeritaTeknologiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BeritaOlahragaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EntertaimentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HeadLineActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OpenNewsActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity android:name=".webview.TIF"
+            android:label="Teknik Informatika"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.SI"
+            android:label="Sistem Informasi"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.AK"
+            android:label="Akuntansi"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.DI"
+            android:label="Desain Interior"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.DKV"
+            android:label="Desain Komunikasi Visual"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.ES"
+            android:label="Ekonomi Syariah"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.FT"
+            android:label="Film dan Televisi"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.HI"
+            android:label="Hubungan Internasional"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.HK"
+            android:label="Hukum"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.MA"
+            android:label="Manajemen"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.MI"
+            android:label="Manajemen Informasi (D3)"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.PBI"
+            android:label="Pendidikan Bahasa Inggris"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.PERBANKAN"
+            android:label="Perbankan Syariah"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.PS"
+            android:label="Psikologi"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.RPL"
+            android:label="Rekayasa Perangkat Lunak"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.RSK"
+            android:label="Rekayasa Sistem Kompute"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+        <activity android:name=".webview.TI"
+            android:label="Teknik Industri"
+            android:parentActivityName=".ProdiActivity"
+            android:theme="@style/Theme.SeputarIndonesia"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_tambahan"
+            android:icon="@drawable/news"
+            android:title="Menu Tambahan" />
+        <item
+            android:id="@+id/nav_fakultas"
+            android:icon="@drawable/fakultas"
+            android:title="Fakultas" />
+        <item
+            android:id="@+id/nav_prodi"
+            android:icon="@drawable/prog"
+            android:title="Program Studi" />
+        <item
+            android:id="@+id/nav_portal"
+            android:icon="@drawable/ic_portal"
+            android:title="Portal Akademik" />
+        <item
+            android:id="@+id/nav_potensi"
+            android:icon="@drawable/web"
+            android:title="UPU" />
+
+    </group>
+
+
+
+
+    <item android:title="Menu Tambahan">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_headlines"
+                    android:icon="@drawable/headline"
+                    android:title="Headlines" />
+                <item
+                    android:id="@+id/nav_sport"
+                    android:icon="@drawable/ic_olahraga"
+                    android:title="Sport" />
+                <item
+                    android:id="@+id/nav_teknology"
+                    android:icon="@drawable/ic_teknologi"
+                    android:title="Technology" />
+                <item
+                    android:id="@+id/nav_business"
+                    android:icon="@drawable/bisnis"
+                    android:title="Business" />
+                <item
+                    android:id="@+id/nav_health"
+                    android:icon="@drawable/kesehatan"
+                    android:title="Health" />
+                <item
+                    android:id="@+id/nav_entertainmnet"
+                    android:icon="@drawable/ic_entertaiment"
+                    android:title="Entertainmnet" />
+            </group>
+
+        </menu>
+    </item>
+    <item android:title="@string/profile">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+
+</menu>
